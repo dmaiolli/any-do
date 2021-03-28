@@ -1,11 +1,13 @@
 import React from 'react';
 
+import ToDo from './pages/ToDo';
+
 import GlobalStyle from './styles/global';
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <ToDo />
       <GlobalStyle />
     </>
   );
